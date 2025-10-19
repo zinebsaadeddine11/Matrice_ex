@@ -46,8 +46,10 @@ int main()
 
     for (int i = 0; i < n; i++) {
         delete[] tab[i];
+        tab[i]=nullptr;
     }
     delete[] tab;
+    tab = nullptr;
     
     return 0;
     
