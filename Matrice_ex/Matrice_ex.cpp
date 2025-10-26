@@ -22,7 +22,6 @@ int main()
     cout << "Somme des deux matrices :" << endl;
     Matrice som = N + (*M);
     som.afficher();
-    M->~Matrice();
     //tableau des matrices
     int n;
     cout << "Saisir nbr de matrices que vous voulez dans le tableau: " << endl;
